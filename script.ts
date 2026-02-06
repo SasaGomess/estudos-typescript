@@ -1,5 +1,5 @@
-function somar(a: number, b: number){
+function soma(a: number, b: number){
     return a + b;
 }
 
-console.log(somar(2, 3));
+console.log(soma(2, 3));
