@@ -1,5 +1,4 @@
 let produto= "Livro";
-
 let preco = 34;
 
 const carro = {
