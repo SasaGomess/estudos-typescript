@@ -10,5 +10,5 @@ function toNumber(valor) {
 }
 console.log(toNumber(33));
 console.log(toNumber('33'));
-//console.log(toNumber(true));
+// console.log(toNumber(true));
 console.log(Number(true));
