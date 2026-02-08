@@ -10,6 +10,11 @@ function filtrarValor(data) {
 console.log(filtrarValor(valores));
 console.log(maiorQue10(numeros));
 const dados = [
-    ['senhor dos aneis', 80],
-    ['guerra dos tronos', 180]
+    ['senhor dos aneis', 40],
+    ['guerra dos tronos', 180],
+    ['dexter', 140]
 ];
+function pegaLivrosPrecoMaior50(data) {
+    return data.flatMap(n => n.filter(i => typeof i === "number" && i >= 50));
+}
+console.log(pegaLivrosPrecoMaior50(dados));
