@@ -1,30 +1,30 @@
-const input = document.querySelector("input");
+// const input = document.querySelector("input");
 
-const total = localStorage.getItem("total");
-
-
-if(total && input){
-    input.value = total;
-    calcularGanho(Number(input.value));
-}
+// const total = localStorage.getItem("total");
 
 
-function calcularGanho(value: number){
-    const p = document.querySelector("p");
+// if(total && input){
+//     input.value = total;
+//     calcularGanho(Number(input.value));
+// }
 
-    if(p){
-        p.innerText = `Total ganho: ${value  + 100 - value * 0.2}`
-    }
 
-}
+// function calcularGanho(value: number){
+//     const p = document.querySelector("p");
 
-function totalMudou(){
-    if(input){
-        localStorage.setItem("total", input.value);
-        calcularGanho(Number(input.value));
-    }
-}
+//     if(p){
+//         p.innerText = `Total ganho: ${value  + 100 - value * 0.2}`
+//     }
 
-if(input){
-    input.addEventListener('keyup', totalMudou)
-}
+// }
+
+// function totalMudou(){
+//     if(input){
+//         localStorage.setItem("total", input.value);
+//         calcularGanho(Number(input.value));
+//     }
+// }
+
+// if(input){
+//     input.addEventListener('keyup', totalMudou)
+// }

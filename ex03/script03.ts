@@ -1,5 +1,5 @@
-function normalizarTexto (texto: string){
-    return texto.trim().toLowerCase();
-}
+// function normalizarTexto (texto: string){
+//     return texto.trim().toLowerCase();
+// }
 
-console.log(normalizarTexto("Olá"));
+// console.log(normalizarTexto("Olá"));
