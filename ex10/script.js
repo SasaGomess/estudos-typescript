@@ -9,7 +9,7 @@ function showProduct(data) {
     document.body.innerHTML = `
     <div>
         <h2>${data.nome}</h2>
-        <p>R$${data.preco}</p>
+        <p>${data.preco}</p>
         <div>
             <h3>${data.empresaFabricante.nome}</h3>
         </div>
