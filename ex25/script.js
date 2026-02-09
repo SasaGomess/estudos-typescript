@@ -1,32 +1,20 @@
 "use strict";
-function somar(a, b, c) {
-    return a + b + (c ? c : 0);
-}
-somar(4, 5, 7);
-somar(4, 5);
-const subtrair = (a, b) => a + b;
-subtrair(6, 9);
-function pintarTela(cor) {
-    document.body.style.background = cor;
-}
-// if(pintarTela("#000")){
-//     console.log("pintou a tela");
-// }
-// else {
-//     console.log("Não pintou")
-// }
-console.log(pintarTela("#000"));
-const btn = document.querySelector("button");
-btn?.click();
-function isString(value) {
-    if (typeof value == "string") {
-        return true;
+// function somar(a: number, b:number, c?:number): number{
+class Quadrado {
+    perimetro(lado) {
+        return lado * 4;
     }
 }
-console.log(isString("Teste"));
-console.log(isString(200));
-function throwError(msg) {
-    throw new Error(msg);
+function calcular(forma) {
+    if (forma instanceof Quadrado) {
+        return forma.perimetro(3);
+    }
+    return forma.perimetro(3, 5, 7);
 }
-throwError("Aconteceu um erro");
-console.log("Tente novamente");
+const triangulo = {
+    perimetro(lado, lado2, lado3) {
+        return lado + lado2 + lado3;
+    }
+};
+console.log(calcular(new Quadrado()));
+console.log(calcular(triangulo));
