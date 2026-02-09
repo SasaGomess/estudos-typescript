@@ -4,8 +4,6 @@ function toggleMenu(event: PointerEvent) {
     const nav = document.getElementById("nav");
     const buttonEvent = event.currentTarget;
 
-   
-
     if (buttonEvent instanceof HTMLButtonElement && nav) {     
         
         const active = nav.classList.contains("active");
