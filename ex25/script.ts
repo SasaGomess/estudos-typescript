@@ -47,32 +47,32 @@
 
 // console.log("Tente novamente");
 
-interface Forma {
-    lado2?: number;
-    lado3?: number;
+// interface Forma {
+//     lado2?: number;
+//     lado3?: number;
 
-    perimetro(lado: number, lado2?: number, lado3?:number): number
-}
+//     perimetro(lado: number, lado2?: number, lado3?:number): number
+// }
 
-class Quadrado implements Forma {
+// class Quadrado implements Forma {
 
-    perimetro(lado: number): number {
-        return lado * 4;
-    }
-}
+//     perimetro(lado: number): number {
+//         return lado * 4;
+//     }
+// }
 
-function calcular(forma: Forma){
-    if(forma instanceof Quadrado){
-        return forma.perimetro(3);
-    }
-    return forma.perimetro(3, 5, 7);
-}
+// function calcular(forma: Forma){
+//     if(forma instanceof Quadrado){
+//         return forma.perimetro(3);
+//     }
+//     return forma.perimetro(3, 5, 7);
+// }
 
-const triangulo: Forma = {
-    perimetro(lado: number, lado2: number, lado3: number): number {
-        return lado + lado2 + lado3;
-    }
-}
+// const triangulo: Forma = {
+//     perimetro(lado: number, lado2: number, lado3: number): number {
+//         return lado + lado2 + lado3;
+//     }
+// }
 
-console.log(calcular(new Quadrado()));
-console.log(calcular(triangulo));
+// console.log(calcular(new Quadrado()));
+// console.log(calcular(triangulo));
