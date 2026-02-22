@@ -1,6 +1,6 @@
 # 💙 Estudos sobre Typescript
 
-## 
+![Typescript](https://img.shields.io/badge/Typescript-1883ff?style=for-the-badge&logo=typescript&logoColor=white)
 
 ### Contém conteúdo sobre:
 - Sintaxe e Tipagem
