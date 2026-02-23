@@ -1,13 +1,17 @@
 "use strict";
-const { body } = document;
-function handleData({ nome, idade }) {
-    nome.toLowerCase();
-    idade.toFixed();
-}
-handleData({
-    nome: "Maria",
-    idade: 25,
-});
+// const { body }: {body: HTMLElement} = document; 
+// interface Pessoa {
+//     nome:string; 
+//     idade:number
+// }
+// function handleData({nome, idade}: Pessoa){
+//     nome.toLowerCase();
+//     idade.toFixed();
+// }
+// handleData({
+//     nome: "Maria",
+//     idade: 25,
+// })
 function handleClickDes({ currentTarget, pageX }) {
     if (currentTarget instanceof HTMLElement) {
         currentTarget.innerHTML = `<h1>Mouse click em x: ${pageX}</h1>`;

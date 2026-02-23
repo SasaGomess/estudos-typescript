@@ -1,20 +1,20 @@
-const { body }: {body: HTMLElement} = document; 
+// const { body }: {body: HTMLElement} = document; 
 
-interface Pessoa {
-    nome:string; 
-    idade:number
-}
+// interface Pessoa {
+//     nome:string; 
+//     idade:number
+// }
 
 
-function handleData({nome, idade}: Pessoa){
-    nome.toLowerCase();
-    idade.toFixed();
-}
+// function handleData({nome, idade}: Pessoa){
+//     nome.toLowerCase();
+//     idade.toFixed();
+// }
 
-handleData({
-    nome: "Maria",
-    idade: 25,
-})
+// handleData({
+//     nome: "Maria",
+//     idade: 25,
+// })
 
 
 
