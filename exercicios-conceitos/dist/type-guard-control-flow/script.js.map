@@ -1,0 +1,1 @@
+{"version":3,"file":"script.js","sourceRoot":"","sources":["../../type-guard-control-flow/script.ts"],"names":[],"mappings":";AAAA,MAAM,GAAG,GAAG;IACR,IAAI,EAAE,OAAO;CAChB,CAAA;AAED,IAAI,KAAK,IAAI,GAAG,EAAE,CAAC;IACf,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC;AACvB,CAAC;KAAM,CAAC;IACJ,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC;AACvB,CAAC"}
